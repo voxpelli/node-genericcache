@@ -1,6 +1,6 @@
 {
   "name": "genericcache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very simple generic interface for caching stuff with switchable backends.",
   "author": {
     "name" : "Pelle Wessman",
@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "underscore": ">=1.4.1 <1.5",
-    "memjs": "git://github.com/voxpelli/node-memjs.git#expire-arg-fix"
+    "memjs": "git://github.com/voxpelli/node-memjs.git#expire-arg-fix",
+    "node-cache": ">=0.3.2 <0.4"
   },
   "engines":  {
     "node": "0.8.x",
